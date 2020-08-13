@@ -19,6 +19,10 @@ public class ExchangeRequest {
 		this.year = year;
 	}
 	
+	@Override
+	public String toString() {
+		return "[asOfDate=" + asOfDate + ", year=" + year + "]";
+	}
 	
 	
 }
