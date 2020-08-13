@@ -18,7 +18,7 @@ import com.exchange.service.CurrencyExchangeService;
 @Service("asOfDateCurrencyExchangeService")
 public class AsOfDateCurrencyExchangeService implements CurrencyExchangeService {
 
-	Logger logger = LoggerFactory.getLogger(CurrencyExchangePersister.class);
+	Logger logger = LoggerFactory.getLogger(AsOfDateCurrencyExchangeService.class);
 
 	@Autowired
 	RatesApiClient ratesApiClient;

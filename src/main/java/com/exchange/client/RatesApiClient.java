@@ -16,7 +16,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.exchange.dao.CurrencyExchangePersister;
 import com.exchange.exception.CurrencyExchangeException;
 import com.exchange.model.ExchangeResponse;
 import com.exchange.util.Constants;
@@ -24,7 +23,7 @@ import com.exchange.util.Constants;
 @Service
 public class RatesApiClient {
 
-	Logger logger = LoggerFactory.getLogger(CurrencyExchangePersister.class);
+	Logger logger = LoggerFactory.getLogger(RatesApiClient.class);
 
 	@Autowired
 	RestTemplate restTemplate;

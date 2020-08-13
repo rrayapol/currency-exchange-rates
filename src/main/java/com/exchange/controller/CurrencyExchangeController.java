@@ -22,7 +22,7 @@ import com.exchange.service.impl.CurrencyExchangeProcessor;
 @RequestMapping("/currency-exchange")
 public class CurrencyExchangeController {
 
-	Logger logger = LoggerFactory.getLogger(CurrencyExchangePersister.class);
+	Logger logger = LoggerFactory.getLogger(CurrencyExchangeController.class);
 
 	@Autowired
 	CurrencyExchangeProcessor currencyExchangeProcessor;

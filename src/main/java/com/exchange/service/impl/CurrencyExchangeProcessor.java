@@ -22,7 +22,7 @@ import com.exchange.util.Constants;
 @Service
 public class CurrencyExchangeProcessor {
 
-	Logger logger = LoggerFactory.getLogger(CurrencyExchangePersister.class);
+	Logger logger = LoggerFactory.getLogger(AsOfDateCurrencyExchangeService.class);
 
 	@Resource(name = "currencyExchangeFactory")
 	CurrencyExchangeFactory currencyExchangeFactory;

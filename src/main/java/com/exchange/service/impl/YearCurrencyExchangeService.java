@@ -21,7 +21,7 @@ import com.exchange.service.CurrencyExchangeService;
 @Service("yearCurrencyExchangeService")
 public class YearCurrencyExchangeService implements CurrencyExchangeService {
 
-	Logger logger = LoggerFactory.getLogger(CurrencyExchangePersister.class);
+	Logger logger = LoggerFactory.getLogger(AsOfDateCurrencyExchangeService.class);
 
 	@Autowired
 	RatesApiClient ratesApiClient;
