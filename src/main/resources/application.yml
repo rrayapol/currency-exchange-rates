@@ -11,3 +11,6 @@ spring.datasource.username : sa
 spring.datasource.password : 
 
 ratesApiUrl : https://api.ratesapi.io/api/{asOfDate}?symbols={symbols}
+
+server:
+  port: 8084
